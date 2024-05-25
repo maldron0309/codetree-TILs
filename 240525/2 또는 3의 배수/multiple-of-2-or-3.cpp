@@ -8,11 +8,11 @@ int main() {
     {
         if (i % 2 == 0 || i % 3 == 0)
         {
-            cout << 1;
+            cout << "1 " ;
         }
         else
         {
-            cout << 0;
+            cout << "0 ";
         }
     }
     return 0;
