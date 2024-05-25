@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
     int a = 3, b = 4;
-    a = b;
+    b = a;
 
-    cout << a << '\n' << b << a*b;
+    cout << a << " " << b  << '\n' << a*b;
     return 0;
 }
