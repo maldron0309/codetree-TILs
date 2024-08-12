@@ -6,7 +6,7 @@ int main()
     std::cin >> n;
 
     if (n >= 80) std::cout << "pass";
-    else std::cout << (n - 80) << " more score";
+    else std::cout << (80 - n) << " more score";
 
     return 0;
 }
