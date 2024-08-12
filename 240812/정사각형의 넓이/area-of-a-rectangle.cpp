@@ -7,8 +7,8 @@ int main()
 
     area = (n * n);
 
+    std::cout << area << '\n';
     if (n < 5) std::cout << "tiny";
-    else std::cout << area;
 
     return 0;
 }
