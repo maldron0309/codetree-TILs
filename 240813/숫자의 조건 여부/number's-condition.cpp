@@ -5,8 +5,8 @@ int main()
     int a{};
     std::cin >> a;
     
-    if (a > 113) std::cout << 1;
-    else std::cout << 0;
+    if (a >= 113) std::cout << true;
+    else std::cout << false;
 
     return 0;
 }
