@@ -2,13 +2,11 @@
 
 int main()
 {
-    int a{}, b{}, sum{};
+    int a{}, b{};
     std::cin >> a >> b;
-
-    sum = a ? b : sum;
-    sum = b ? a : sum
-
-    std::cout << sum;
+    
+    int max = (a > b) ? a : b;
+    std::cout << max;
 
     return 0;
 }
