@@ -6,6 +6,7 @@ int main()
     std::cin >> a >> b;
 
     sum = a ? b : sum;
+    sum = b ? a : sum
 
     std::cout << sum;
 
