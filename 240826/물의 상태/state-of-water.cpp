@@ -9,7 +9,7 @@ int main()
     {
         std::cout << "ice";
     }
-    else if (water > 100)
+    else if (water >= 100)
     {
         std::cout << "vapor";
     }
