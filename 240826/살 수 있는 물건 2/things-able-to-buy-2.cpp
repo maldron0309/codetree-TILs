@@ -9,7 +9,7 @@ int main()
     {
         std::cout << "book";
     }
-    else if (n >= 1000)
+    else if (3000 >= n >= 1000)
     {
         std::cout << "mask";
     }
