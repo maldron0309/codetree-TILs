@@ -9,9 +9,13 @@ int main()
     {
         std::cout << "book";
     }
-    else if (3000 >= n >= 1000)
+    else if (n >= 1000)
     {
         std::cout << "mask";
+    }
+    else if (n >= 500)
+    {
+        std::cout << "pen";
     }
     else 
     {
