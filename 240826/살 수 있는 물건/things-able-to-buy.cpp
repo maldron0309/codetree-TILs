@@ -3,6 +3,7 @@
 int main()
 {
     int n{};
+    std::cin >> n;
     
     if (n >= 3000)
     {
