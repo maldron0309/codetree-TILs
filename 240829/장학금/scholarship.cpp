@@ -13,7 +13,7 @@ int main()
         {
             money = 100000;
         }
-        else if (f > 90)
+        else if (f >= 90)
         {
             money = 50000;
         }
